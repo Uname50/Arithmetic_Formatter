@@ -1,3 +1,3 @@
-from a_formatter import a_formatter
+from a_formatter import arithmetic_arranger
 
-print(a_formatter(""))
+print(arithmetic_arranger(""))

@@ -1,6 +1,7 @@
 # Arithmetic_Formatter
 Program to format arithmetic expressions from string format into paper-like solution format. Created for practice
 
+```
 Rules for this program:
 -> The function takes no more than 5 arguments
 -> The function only supports addition ("+") and subtraction ("-")
@@ -39,3 +40,5 @@ Output:
 + 100    -    7    + 84    
 -----    ------    ---- 
   132      4916      95
+
+```

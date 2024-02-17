@@ -1,3 +1,5 @@
+import random
+
 def arithmetic_arranger(problems, display_answers=False):
     
     # check the number of problems
@@ -67,3 +69,18 @@ def arithmetic_arranger(problems, display_answers=False):
     # return the final formatted string
     return arranged_problems
 
+
+# function to generate random numbers to supply into the arithmetic converter 
+def generate_random_numbers(number_of_problems):
+    
+    # initialize the list to store the problems
+    problems = []
+
+    # generate as many problems as the number requires 
+    for problem in problems:
+        
+        # generate the first number
+        first_number = random.randint(1, 9999)
+
+        # generate the second number 
+        second_number = random.randint(1, 9999)

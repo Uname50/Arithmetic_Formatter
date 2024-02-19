@@ -1,3 +1,8 @@
-from a_formatter import arithmetic_arranger
+# import functions from the external class
+from a_formatter import arithmetic_arranger, generate_random_numbers
 
-print(arithmetic_arranger(["37 + 6982", "3001 - 2", "145 + 43", "1234 + 49"], True))
+# create a list of random problems
+random_problems = generate_random_numbers(5)
+
+# print the problems with their solutions
+print(arithmetic_arranger(random_problems, True))

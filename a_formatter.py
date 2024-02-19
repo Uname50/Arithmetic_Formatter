@@ -76,11 +76,24 @@ def generate_random_numbers(number_of_problems):
     # initialize the list to store the problems
     problems = []
 
-    # generate as many problems as the number requires 
-    for problem in problems:
+    # generate as many problems as the number passed in the function requires 
+    for something in range(number_of_problems):
         
         # generate the first number
         first_number = random.randint(1, 9999)
 
         # generate the second number 
         second_number = random.randint(1, 9999)
+
+        # random choice between addition and subtraction 
+        operator = random.choice(['+', '-'])
+
+        # create the problem string 
+        problem = f'{first_number} {operator} {second_number}'
+
+        # add the created problem to the list of problems
+        problems.append(problem)
+
+    return problems
+
+  
